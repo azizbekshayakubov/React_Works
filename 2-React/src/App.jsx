@@ -1,6 +1,6 @@
-import Header from './Header'
-import Footer from './Footer'
-import Main from './Main'
+import Main from './container/Main'
+import Navbar from './container/Navbar'
+import Sidebar from './container/Sidebar'
 import './App.css'
 
 function App() {
@@ -8,9 +8,12 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Main/>
-      <Footer/>  
+    <div className='APP'>
+       <Sidebar/>
+       <Navbar/> 
+       <Main/>
+    </div>
+     
     </>
   )
 }
