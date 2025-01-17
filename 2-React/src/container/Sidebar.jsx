@@ -1,13 +1,15 @@
-import { Chart, Logo } from '../assets/styles/Icons'
+import Chart from '../assets/styles/Icons'
 import '../container/sidebar.scss'
+import Logo from "../assets/images/icons/logo.svg"
+
 
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className='sidebar-header'>
-                <Logo />
-                <h2>Dashboard Kit</h2>
+                <img src={Logo} alt="Dashbord Logo" />
+                <h1>Dashboard Kit</h1>
             </div>
             <button className='btn sidebar-btn'>
                 <Chart />

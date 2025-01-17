@@ -1,10 +1,33 @@
-.sidebar{
+.sidebar {
     background-color: rgb(37, 39, 52, 1);
     width: 20vw;
     height: 100vh;
 }
 
-.btn{
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+    img {
+        margin-right: 12px;
+    }
+
+    h1 {
+        font-family: Muli;
+        font-size: 19px;
+        line-height: 23.84px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #A4A6B3;
+
+    }
+}
+
+.btn {
     display: block;
     font-family: Muli;
     font-style: normal;
@@ -17,19 +40,16 @@
 .sidebar-btn {
     width: 100%;
     background-color: transparent;
-    padding: 18px  24px;
+    padding: 18px 24px;
     border: none;
     cursor: pointer;
     color: #9fa2b4;
     &:hover {
-        background-color: rgba(159,  162, 180, 1);
+        background-color: rgba(159, 162, 180, 1);
         opacity: 0.6;
     }
-}
 
-.sidebar-header{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
-    
+    span{
+        margin-left: 24px;
+    }
 }
