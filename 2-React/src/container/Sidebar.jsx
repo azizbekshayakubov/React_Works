@@ -1,6 +1,6 @@
-import Chart from '../assets/styles/Icons'
 import '../container/sidebar.scss'
 import Logo from "../assets/images/icons/logo.svg"
+import SidebarBtn from '../components/SidebarBtn'
 
 
 
@@ -11,19 +11,7 @@ const Sidebar = () => {
                 <img src={Logo} alt="Dashbord Logo" />
                 <h1>Dashboard Kit</h1>
             </div>
-            <button className='btn sidebar-btn'>
-                <Chart />
-                <span>
-                    Overview
-                </span>
-            </button>
-            <button className='btn sidebar-btn'>Overview</button>
-            <button className='btn sidebar-btn'>Overview</button>
-            <button className='btn sidebar-btn'>Overview</button>
-            <button className='btn sidebar-btn'>Overview</button>
-            <button className='btn sidebar-btn'>Overview</button>
-            <button className='btn sidebar-btn'>Overview</button>
-            <button className='btn sidebar-btn'>Overview</button>
+            <SidebarBtn />
         </div>
 
 
